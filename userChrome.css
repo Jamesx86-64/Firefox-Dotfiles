@@ -1,0 +1,102 @@
+#TabsToolbar { visibility: collapse; }
+
+/**
+#nav-bar {
+  margin-top: 5px !important;
+  margin-left: 5px !important;
+  margin-right: 5px !important;
+  border-radius: 10px !important;
+}
+**/
+
+#navigator-toolbox {
+  border-bottom: 0px !important;
+}
+
+#sidebar-box #sidebar-header { display: none !important; }
+
+#sidebar-box {
+  background-color: var(--lwt-accent-color-inactive, var(--lwt-accent-color)) !important;
+}
+
+#sidebar {
+  margin-left: 5px !important;
+  background-color: var(--lwt-accent-color-inactive, var(--lwt-accent-color)) !important;
+}
+
+.sidebar-splitter {
+  display: none !important;
+}
+
+:root { --url-text-align: center; }
+
+#star-button-box { display: none !important; }
+#urlbar { text-align: center; }
+
+#urlbar:not(.searchButton) > #urlbar-input-container > #identity-box[pageproxystate="invalid"] {
+  opacity: 0;
+}
+#tracking-protection-icon-container,
+#identity-box > .identity-box-button {
+  display: none !important;
+}
+
+#PersonalToolbar {
+  display: none !important;
+}
+
+/**
+#tabbrowser-tabpanels {
+  browser[type="content"] {
+    border-radius: 10px !important;
+    margin: 5px !important;
+  }
+}
+
+.browserContainer {
+  background-color: var(--lwt-accent-color-inactive, var(--lwt-accent-color)) !important;
+}
+
+.browserContainer > findbar:-moz-lwtheme {
+  margin-bottom: 5px !important;
+  margin-left: 5px !important;
+  margin-right: 5px !important;
+  border-radius: 10px !important;
+}
+**/
+
+
+#TabsToolbar, #sidebar-header {
+  display: none !important;
+}
+
+#sidebar-box {
+  position: relative !important;
+  overflow: hidden !important;
+  transition: all 200ms !important;
+  min-width: 42px !important;
+  max-width: 42px !important;
+}
+
+#sidebar-box:hover {
+  transition: all 200ms !important;
+  min-width: 384px !important;
+  max-width: 384px !important;
+}
+
+#bookmarksPanel, #history-panel {
+  display: none !important;
+  background-color: var(--lwt-accent-color-inactive, var(--lwt-accent-color)) !important;
+}
+
+#urlbar[focused="true"]:not([suppress-focus-border]) > #urlbar-background,
+#searchbar:focus-within {
+  box-shadow: none !important;
+  outline-color: transparent !important;
+}
+
+/*
+#unified-extensions-button, #unified-extensions-button > .toolbarbutton-icon{
+  width: 0px !important;
+  padding: 0px !important;
+}
