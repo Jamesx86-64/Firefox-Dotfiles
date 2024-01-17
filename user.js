@@ -1,10 +1,3 @@
-//user_pref("browser.urlbar.placeholderName", "DuckDuckGo");
-//user_pref("browser.urlbar.placeholderName", "Startpage");
-//user_pref("browser.urlbar.placeholderName.private", "DuckDuckGo");
-//user_pref("browser.urlbar.placeholderName.private", "Startpage");
-
-//user_pref("general.platform.override", "Win32");
-//user_pref("general.useragent.override", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36");
 user_pref("app.normandy.api_url", "");
 user_pref("app.normandy.enabled", false);
 user_pref("app.shield.optoutstudies.enabled", false);
@@ -194,7 +187,6 @@ user_pref("extensions.shield-recipe-client.enabled", false);
 user_pref("extensions.TemporaryContainers@stoically.whiteList", "");
 user_pref("extensions.webcompat-reporter.enabled", false);
 user_pref("extensions.webcompat.enable_shims", true);
-user_pref("extensions.webextensions.uuids", "{\"uBlock0@raymondhill.net\":\"8f42adb6-0feb-4b72-9740-0408af734be3\",\"{3c078156-979c-498b-8990-85f7987dd929}\":\"9fd0ecdd-00c3-40fc-bbee-2e3f9a666334\",\"ATBC@EasonWong\":\"49a1f515-0f71-472a-abb9-dad1a3e6f44f\",\"addon@darkreader.org\":\"fdf5d3c7-f186-45d8-906f-a696a006aa28\",\"formautofill@mozilla.org\":\"1f6fd2cf-6d6a-4a3b-9002-3842cbe22ce8\",\"pictureinpicture@mozilla.org\":\"1dbd9a90-3bf1-4715-822b-b33d9f420bce\",\"screenshots@mozilla.org\":\"b10d55f4-8e04-4f17-b0aa-cdb578ef2df1\",\"webcompat-reporter@mozilla.org\":\"fb8a7162-46a7-41ea-a800-e200001b2479\",\"webcompat@mozilla.org\":\"cef0dba5-7fe6-4370-a69c-ece9e39f42df\",\"addons-search-detection@mozilla.com\":\"e2db44ab-fcbb-4a1a-815d-10b92e4a4228\",\"google@search.mozilla.org\":\"7f3e7e1f-6c67-4890-b31c-072ca2b3af46\",\"amazondotcom@search.mozilla.org\":\"faf3f41f-7e3c-4dba-8117-44cee8f68806\",\"wikipedia@search.mozilla.org\":\"6f315a6c-af4d-4da2-9d78-c003d4372165\",\"bing@search.mozilla.org\":\"65451414-dcad-4bdc-a9d9-0d822d531239\",\"ddg@search.mozilla.org\":\"0f071ae1-dca3-4f67-b1a9-2f4a74d23b34\",\"ebay@search.mozilla.org\":\"a2bb5404-ffc5-48c0-9b71-c8cda3aa25d5\",\"firefox-compact-dark@mozilla.org\":\"e0003134-4d3b-4e9a-b33c-c5c273cf1f17\",\"firefox-compact-light@mozilla.org\":\"98f639f8-ba92-4012-b153-bd8a4e4ffa8e\",\"firefox-alpenglow@mozilla.org\":\"8a70b212-d657-46e9-8556-d9ff094595c7\",\"{a6c4a591-f1b2-4f03-b3ff-767e5bedf4e7}\":\"a46967b7-095f-4c13-8e9f-fc2add7b1753\"}");
 user_pref("extensions.webservice.discoverURL", "");
 user_pref("findbar.highlightAll", true);
 user_pref("findbar.modalHighlight", true);
